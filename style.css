@@ -1,1 +1,17 @@
+#gameGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 500px;
+  width: 500px;
+}
 
+.space {
+  background-color: pink;
+  width: 32%;
+  padding-bottom: 32%;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+}
